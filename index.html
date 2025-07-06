@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gino Ostolaza - Mentoría en Trading & Mentalidad</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #201139;
+      color: white;
+      line-height: 1.6;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #2a1a4f;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav h1 {
+      font-size: 1.5rem;
+      color: #4be213;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+    }
+    nav ul li a:hover {
+      color: #FF8C00;
+    }
+    header {
+      background: linear-gradient(to bottom, rgba(32,17,57,0.85), rgba(32,17,57,0.9)), url('https://images.unsplash.com/photo-1565371372210-04eabe4e0b66?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #4be213;
+      font-weight: 800;
+    }
+    header p {
+      font-size: 1.3rem;
+      margin: 1rem 0;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn-primary {
+      background-color: #6C23DA;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1.1rem;
+    }
+    .btn-primary:hover {
+      background-color: #4be213;
+      color: black;
+    }
+    section {
+      padding: 5rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2.2rem;
+      color: #FF8C00;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    .highlight-box {
+      background-color: #2d1e50;
+      padding: 2rem;
+      border-left: 6px solid #4be213;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+    }
+    .benefits li {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+    .bio {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .bio img {
+      width: 200px;
+      border-radius: 12px;
+    }
+    .bio-text {
+      flex: 1;
+    }
+    .testimonial {
+      background-color: #2d1e50;
+      padding: 2rem;
+      border-radius: 15px;
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+    .faq-item { margin-bottom: 2rem; }
+    .faq-item h3 {
+      color: #4be213;
+      font-size: 1.3rem;
+      margin-bottom: .5rem;
+    }
+    .faq-item p { font-size: 1.05rem; }
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.95rem;
+    }
+    .social {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .social a {
+      margin: 0 15px;
+      color: #4be213;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      font-size: 1.1rem;
+    }
+    .social a img {
+      width: 26px;
+      height: 26px;
+      margin-right: 8px;
+    }
+    .social a:hover { color: #FF8C00; }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>Gino Ostolaza</h1>
+    <ul>
+      <li><a href="#sobre-mi">Sobre Mí</a></li>
+      <li><a href="#contenido">Contenido</a></li>
+      <li><a href="#testimonios">Testimonios</a></li>
+      <li><a href="#faqs">FAQs</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <div>
+      <h1>GINO OSTOLAZA | TRADING & COACHING</h1>
+      <p>🚀 Transformá tu mentalidad y generá tus primeros $100/mes operando desde casa. Resultados reales, sin humo.</p>
+      <a class="btn-primary" href="https://instagram.com/ginoostolazaob?text=Hola%20Gino%20quiero%20GANAR,%20mi%20nombre%20es..." target="_blank">QUIERO APRENDER TRADING</a>
+    </div>
+  </header>
+
+  <section id="contenido">
+    <h2>¿Por qué elegir esta mentoría?</h2>
+    <div class="highlight-box">
+      <ul class="benefits">
+        <li>✅ Método práctico, directo y sin vueltas</li>
+        <li>✅ Aprendizaje desde cero, sin relleno</li>
+        <li>✅ Resultados en menos de 30 días con acompañamiento constante</li>
+        <li>✅ Enfoque integral: estrategia rentable y mentalidad ganadora</li>
+        <li>✅ Acceso a la comunidad privada de alumnos por 3 meses</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="sobre-mi">
+    <h2>🔥 Sobre Mí</h2>
+    <div class="bio-text" style="max-width: 700px; margin: auto; font-size: 1.1rem; line-height: 1.5;">
+      <p>¿Estás cansado de ver videos, gurús, y no avanzar?  
+      Yo también estuve ahí. Intentando, perdiendo, dudando… y volviendo a empezar mil veces.</p>
+    <br>
+      <p>Me llamo <strong>Gino Ostolaza</strong>, tengo 17 años, voy a la escuela en bicicleta todos los días, y nadie me regaló nada.  
+      Todo lo que construí fue a fuerza de romperme el alma, fracasar, llorar, insistir… y no rendirme nunca.</p>
+  
+      <p>No vengo a venderte un curso mágico. Vengo a darte un sistema real para que puedas generar ingresos desde tu celular… pero también mejorar como persona.</p>
+  
+      <p><em>Porque si no cambiás vos, no cambian tus resultados.</em>  
+      En este entrenamiento, trabajamos:</p>
+  
+      <ul style="list-style: none; margin-left: 1rem; margin-bottom: 1.5rem;">
+        <li>🧠 20% el método. 80% en vos.</li>
+        <li>🔑 Porque el dinero no llega al que sabe… llega al que es merecedor.</li>
+      </ul>
+  
+      <p>Hoy acompaño a personas que pasan de no saber nada a retirar 100, 200 o 500 dólares al mes.  
+      Sin bots, sin señales, sin humo. Esto es real. Esto es para vos, si estás dispuesto a hacer lo que hay que hacer.</p>
+    </div>
+  </section>
+  
+
+  <section id="testimonios">
+    <h2>Testimonios</h2>
+    <div class="testimonial">
+      <p>"Pasé de no entender nada a tener resultados en 2 semanas. Lo que más destaco es cómo me ordenó la cabeza y me ayudó a enfocarme."</p>
+    </div>
+    <div class="testimonial">
+      <p>"El cambio no fue solo financiero. Aprendí a pensar diferente y a tomar decisiones con claridad. 100% recomendado."</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Accedé hoy</h2>
+    <div class="highlight-box">
+      <p><strong>1 mes de mentoría intensiva</strong> + <strong>2 meses de acceso total</strong> a la comunidad privada. Precio de lanzamiento: <strong>$25 USD</strong>. Cupos limitados y renovables.</p>
+      <br>
+      <a class="btn-primary" href="https://instagram.com/ginoostolazaob?text=Hola%20Gino%20quiero%20GANAR,%20mi%20nombre%20es..." target="_blank">ESCRIBIME AHORA EN INSTAGRAM</a>
+    </div>
+    <div class="social">
+      <p>📲 Seguime en redes:</p>
+      <a href="https://instagram.com/ginoostolazaob" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram Icon">Instagram
+      </a>
+      <a href="https://www.youtube.com/@GinoOstolazaGon" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube Icon">YouTube
+      </a>
+    </div>
+  </section>
+
+  <section class="faq" id="faqs">
+    <h2>Preguntas Frecuentes (FAQs)</h2>
+    <div class="faq-item">
+      <h3>¿Necesito experiencia previa?</h3>
+      <p>No. Esta mentoría está pensada para personas que arrancan desde cero. Vas a entender todo desde el inicio.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Cuánto dura el acceso?</h3>
+      <p>El entrenamiento intensivo dura 1 mes, pero el acceso a comunidad y recursos se extiende por 3 meses. Luego podés renovar si querés seguir creciendo.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Qué necesito para empezar?</h3>
+      <p>Solo un celular con internet, una cuenta en la plataforma gratuita de trading y ganas reales de cambiar tu vida.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Cuántos cupos hay disponibles?</h3>
+      <p>Trabajo con grupos reducidos para asegurar un seguimiento de calidad. Los cupos son limitados cada mes.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gino Ostolaza. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
